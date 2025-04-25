@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            gap: 100px;
+            padding: 90px 0px;
+        }
+        .heading-container{
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            align-items: center;
+        }
+        .heading-container>h1{
+            font-size: 50px;
+        }
+        .heading-container>p{
+            font-size: 18px;
+            color: #646464;
+        }
+        .cards-container{
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            padding: 30px 80px; 
+        }
+        .card{
+            width: 50%;
+            background-color: aliceblue;
+            text-align: center;
+            padding: 30px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .card>img{
+            width: 100%;
+        }
+        .stat-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .stat-card{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <section>
+
+        <div class="heading-container">
+            <h1>heading</h1>
+            <p>para</p>
+        </div>
+
+        <div class="cards-container">
+            <div class="card">
+                <h2>heading</h2>
+                <p>para</p>
+                <img src="images/f_04.png" alt="">
+            </div>  
+            <div class="card">
+                <img src="images/f_04.png" alt="">
+                <h2>heading</h2>
+                <p>para</p>
+            </div>  
+
+        </div>
+
+        <div class="stat-container">
+            <div class="stat-card">
+                <h1>200</h1>
+                <p>this is a paragraph broken in two lines</p>
+            </div>
+
+            <div class="stat-card">
+                <h1>300</h1>
+                <p>this is a paragraph <br>broken in two lines</p>
+            </div>
+
+            <div class="stat-card">
+                <h1>322</h1>
+                <p>this is a paragraph <br> broken in two lines</p>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>

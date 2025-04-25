@@ -1,0 +1,126 @@
+/* CSS GENERAL RESET */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+}
+
+/* RESET ENDS HERE */
+
+nav{
+    display: flex;
+    height: 80px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+.logo{
+    width: 140px;
+    height: auto;
+}
+.logo>img{
+    width: 100%;
+}
+.cta-btn{
+    padding: 8px 20px;
+    height: auto;
+}
+menu{
+    display: flex;
+}
+menu > a > li{
+    list-style-type: none;
+    padding: 16px;
+}
+/* menu > a > li:hover{
+    background-color: antiquewhite;
+} */
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    align-items: center;
+    background: #ffefef;
+    padding: 60px 90px;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px
+}
+
+.label{
+    background: #ffd1d1;
+    display: flex;
+    padding: 6px 14px;
+    gap: 10px;
+    align-items: center;
+    border-radius: 100px;
+    font-size: 12px;
+    color: #eb5f5f;
+}
+
+.label>div{
+    width: 8px;
+    height: 8px;
+    background-color: #eb5f5f;
+    border-radius: 100px;
+}
+.hero-left>h1{
+    font-size: 54px;
+    letter-spacing: -2px;
+    font-weight: 600;
+    color: #343232;
+}
+.hero-left>p{
+    color: #3c3737;
+}
+.cta-container{
+    display: flex;
+    gap: 8px;
+}
+.btn{
+    border-radius: 300;
+    cursor: pointer;
+    padding: 10px 30px;
+    border: solid 1px;
+}
+.btn-fill{
+    background: red;
+    border: 1px solid red;
+    color: whitesmoke;
+    border-radius: 60px;
+}
+.btn-fill:hover{
+    background: #c20404;
+    transition: .5s ease-in-out;
+}
+
+.btn-outline{
+    border-radius: 60px;
+    border: #1c1b1b solid 1px;
+    background: none
+}
+.btn-outline:hover{
+    background: #3a3a3a;
+    color: #f1f1f1;
+    transition: .5s ease-in-out;
+}
+
+.hero-right{
+    width: 80%;
+}
+.hero-right>img{
+    width: 100%;
+}
+

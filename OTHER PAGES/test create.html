@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Skillogram</title>
+    
+        <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+                box-sizing: border-box;
+
+                font-family: sans-serif; 
+            }
+
+            nav{
+                display: flex;
+                height: 80px;
+                padding: 16px 90px;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid #f1f1f1;
+
+            }
+            .logo{
+                width: 140px;
+            }
+
+            .logo>img{
+                width: 140px;
+            }
+/* 
+            .cta-btn{
+                    padding: 8px 20px;
+                    height: auto;
+            } */
+
+            menu{
+                    display: flex;
+            }
+
+            menu > a > li{
+                list-style-type: none;
+                padding: 16px;
+            }
+
+            a{
+                text-decoration: none;
+                color: #000;
+            }
+
+            /* HERO SECTION STARTS HERE */
+
+            .hero-section{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                /* gap: 20px; */
+                background: #fff0f0;
+                padding: 60px 90px;
+            }
+            .hero-left{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 16px;
+            }
+           
+            .label{
+                background: #ffe1e1;
+                display: flex;
+                padding: 8px 20px;
+                gap: 10px;
+                align-items: center;
+                border-radius: 100px;
+
+                font-size: 12px;
+                color: #d15959;
+                /* text-transform: capitalize; */
+            }
+            .label>div{
+                width: 10px;
+                height: 10px;
+                background-color: rgb(255, 129, 129);
+                border-radius: 100px;
+            }
+            .hero-left>h1{
+                font-size: 54px;
+                letter-spacing: -2px;
+                font-weight: 600;
+                color: #212121;
+            }
+            .hero-left>p{
+                color: #545454;
+            }
+            .cta-container{
+                display: flex;
+                gap: 8px;
+            }
+            .btn{
+                border-radius: 300px;
+                cursor: pointer;
+                padding: 8px 24px;
+                border: 1px solid;
+            }
+            .btn-fill{
+                background: red;
+                border: 1px solid red;
+                color: #f1f1f1;
+            }
+            .btn-outline{
+                border: 1px solid #212121;
+                background: none;
+            }
+
+            .hero-right{
+                width: 400px;
+            }
+            .hero-right>img{
+                width: 400px;
+            }
+            /* HERO SECTION ENDS HERE */
+
+
+
+        </style>
+
+    </head>
+
+    <body>
+        <nav>
+            <div class="logo">
+                <img src="images/logosk.png">
+            </div>
+            <menu>
+                <a href="">
+                    <li>Home</li>
+                </a>
+                <a href="">
+                    <li>About us</li>
+                </a>
+                <a href="">
+                    <li>Contact us</li>
+                </a>
+                <a href="">
+                    <li>Instructors</li>
+                </a>
+                <a href="">
+                    <li>Contact us</li>
+                </a>
+            </menu>
+        
+            <button type="button" class="btn btn-fill"> Student Login</button>   
+        </nav>
+        <section class="hero-section">
+            <div class="hero-left">
+                <div class="label"> 
+                    <div></div>
+                    <p>Build a formidable skills</p>
+                </div>
+                
+                <h1>Learn high paying tech skills and earn better</h1>
+    
+                <p>
+                    Our goal is to transform you from having little or no skill to becoming <br>
+                    a highly sought after professional in any of your chosing skills
+                </p>
+                <div class="cta-container">
+                    <button class="btn btn-fill">Explore Courses</button>
+                    <button class="btn btn-outline">AI Course Adviser</button>
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <img src="images/HeroRight.png" width="300">
+            </div>
+        </section>    
+     
+    </body>
+</html> 
